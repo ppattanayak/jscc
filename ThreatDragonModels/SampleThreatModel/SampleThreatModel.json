@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "SampleThreatModel",
+    "owner": "Piyush Pattanayak",
+    "description": "A demo threat modeling application"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Customer Service app",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ]
+  }
+}
