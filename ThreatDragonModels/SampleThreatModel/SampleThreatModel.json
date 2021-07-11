@@ -11,7 +11,86 @@
         "title": "Customer Service app",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "diagramType": "STRIDE",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 50,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "bb0ef372-9a36-4e8f-bc58-3123f5972ece",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Browser"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 30,
+                "y": 20
+              },
+              "target": {
+                "x": 110,
+                "y": 100
+              },
+              "vertices": [
+                {
+                  "x": 84,
+                  "y": 88
+                }
+              ],
+              "id": "4fc41337-0c2f-4d27-80de-2c9fe1f1c9ea",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 1",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": "590",
+          "width": "790"
+        }
       }
     ]
   }
